@@ -6,7 +6,7 @@ Main focus is to implement the logic used by Scrooge to process transactions and
 
 ## Deliverables
 We are given TxHandler.java to complete. There are two methods that need to be completed. 
-''' java
+'''java
 public boolean isValidTx(Transaction tx)
 Returns true if
 * (1) all outputs claimed by tx are in the current UTXO pool,
