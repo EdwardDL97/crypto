@@ -32,3 +32,10 @@ public Transaction[] handleTxs(Transaction[] possibleTxs)
 
 ```
 TxHandler.java returns a mutually valid transaction set of maximal size (one that can’t be enlarged simply by adding more transactions).
+
+
+## How to Run
+For Windows: Change CLASSPATH to where it adds scroogeCoinGrader.jar, algs4.jar, and rsa.jar.
+Compile: javac TestTxHandler.java
+Run: java TestTxHandler
+
